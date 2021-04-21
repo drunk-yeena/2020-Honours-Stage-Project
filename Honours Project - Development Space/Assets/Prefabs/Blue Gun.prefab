@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &7909972554770087519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473448850118022936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8cb8aa68a83b94c87e00d2b2b82620, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gunPrefab: {fileID: 1473448850118022936}
+  emmitterPoint: {fileID: 2143202771485251469}
+  projectile: {fileID: 8584916154965370, guid: ca611f80e5659f34fb6602ccc656bfd9, type: 3}
+  rateOfFire: 0.5
+  magazineSize: 20
+  infiniteAmmo: 0
+  automaticFire: 1
+--- !u!1001 &1422896579563952704
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 562273798078401880, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+        type: 3}
+      propertyPath: m_Name
+      value: Blue Gun
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573255365752520523, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.099
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573255365752520523, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573255365752520523, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573255365752520523, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573255365752520523, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573255365752520523, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573255365752520523, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573255365752520523, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573255365752520523, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573255365752520523, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573255365752520523, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6487543427352804493, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b7aeecb25a9b1c44f8cf85207e8570e8, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4eb08a0208ba8f84585409313cc1b0f6, type: 3}
+--- !u!1 &1473448850118022936 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 562273798078401880, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1422896579563952704}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2143202771485251469 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1009100396113022413, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1422896579563952704}
+  m_PrefabAsset: {fileID: 0}

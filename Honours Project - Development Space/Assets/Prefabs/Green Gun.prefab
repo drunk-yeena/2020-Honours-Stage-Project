@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &6711432437587134717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2501250219079792318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a90d73fbda7a32b41b100abdf0252202, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gunPrefab: {fileID: 2501250219079792318}
+  emmitterPoint: {fileID: 3133005257276306987}
+  projectile: {fileID: 8976850442975772353, guid: 553cf80d7d7d7344b98c2c92235eabf3,
+    type: 3}
+  rateOfFire: 0.2
+  magazineSize: 10
+  infiniteAmmo: 0
+  automaticFire: 0
+--- !u!1001 &2700929251689331686
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 562273798078401880, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+        type: 3}
+      propertyPath: m_Name
+      value: Green Gun
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573255365752520523, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.496
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573255365752520523, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.759
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573255365752520523, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.187
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573255365752520523, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573255365752520523, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573255365752520523, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573255365752520523, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573255365752520523, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573255365752520523, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573255365752520523, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573255365752520523, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6487543427352804493, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c247ee46cedc53d49a8aa1da664a9ece, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4eb08a0208ba8f84585409313cc1b0f6, type: 3}
+--- !u!1 &2501250219079792318 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 562273798078401880, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+    type: 3}
+  m_PrefabInstance: {fileID: 2700929251689331686}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3133005257276306987 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1009100396113022413, guid: 4eb08a0208ba8f84585409313cc1b0f6,
+    type: 3}
+  m_PrefabInstance: {fileID: 2700929251689331686}
+  m_PrefabAsset: {fileID: 0}

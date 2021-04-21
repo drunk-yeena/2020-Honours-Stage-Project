@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.honoursprojectdevelopmentspace.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Hull University\\General SVN Folder\\Year 3\\Honours Project - Twin Shooter in VR-MR\\Honours Development Folder\\Honours Project - Development Space\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "Honours Project - Development Space [Testing]"
+        }
+      }
+    }
+  ]
+}
